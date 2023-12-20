@@ -1,7 +1,7 @@
 import glob
 
-POS_FILES_PATTERN = '.../pos/*.txt'
-NEG_FILES_PATTERN = '.../neg/*.txt'
+POS_FILES_PATTERN = '.../pos/*.txt' #your path
+NEG_FILES_PATTERN = '.../neg/*.txt' #your path
 
 
 # Load and parse positive reviews
@@ -56,7 +56,7 @@ else:
 print('--')
 print("This sentence is", label, ', sentriment =', sentence_sentiment)
 
-# python .../Neg_and_pos_reviews.py
+# python (your path).../Neg_and_pos_reviews.py
 
 # for ex.:
 # This is very good
