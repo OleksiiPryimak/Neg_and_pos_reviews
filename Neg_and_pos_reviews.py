@@ -1,3 +1,10 @@
+# python (location)/Neg_and_pos_reviews.py
+
+# for ex.:
+# This is very good
+# Not bad
+
+
 import glob
 
 POS_FILES_PATTERN = '.../pos/*.txt' #your path
@@ -55,9 +62,3 @@ else:
     label = 'negative'
 print('--')
 print("This sentence is", label, ', sentriment =', sentence_sentiment)
-
-# python (your path).../Neg_and_pos_reviews.py
-
-# for ex.:
-# This is very good
-# Not bad
