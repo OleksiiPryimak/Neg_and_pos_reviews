@@ -6,12 +6,13 @@
 
 <ol>
   <li>Execute the following command: <code>python Neg_and_pos_reviews.py</code></li>
+  <li>Enter a sentence to analyze, and the script will determine whether the sentence is positive, negative, or neutral.</li>
 </ol>
 
-<p> Enter a sentence to analyze, and the script will determine whether the sentence is positive, negative, or neutral. </p>
+
 
 <h2>Example</h2>
 
-
+<code>python Neg_and_pos_reviews.py</code>
 <p>Enter a sentence: <code>This is very good</code> </p>
 <p>This sentence is positive, sentriment = <code>0.8</code></p>
